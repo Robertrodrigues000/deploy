@@ -1,0 +1,7 @@
+[build]
+base = "."
+command = "npm i"
+publish = "./src/views/index"
+
+[build.environment]
+CONNECTIONSTRING=mongodb+srv://RobertRodrigues:Baby974592@cursojs1.xnggw.mongodb.net/AGENDA?retryWrites=true&w=majority
